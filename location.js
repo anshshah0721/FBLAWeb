@@ -2,7 +2,7 @@ const places = {
   Primo: {
     phone: "847...",
     address: "1234 ln",
-    img: "./images/name.jpeg"
+    img: "./images/sarpino.jpeg"
   },
   place2: {
     data: "thing"
