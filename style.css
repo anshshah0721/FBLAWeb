@@ -1,0 +1,124 @@
+
+body {
+    font-family: Arial;
+    color: white;
+    font-size: 20pt;
+  } /* This format is for the LoCative Title at the top */
+  
+  .top {
+    height: 10vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    background-image: linear-gradient(to left, rgb(131, 80, 165), rgb(10, 101, 177));
+  } /* Top bar format */
+  
+  .left {
+    overflow-y: auto;
+    background-color: whitesmoke;
+    height: 90vh;
+    width: 69vw;
+    position: absolute;
+    z-index: 0;
+    left: 0px;
+    top: 10vh;
+  } /* Left bar formating */
+  
+  .right {
+    background-color: gainsboro;
+    height: 90vh;
+    width: 31vw;
+    position: absolute;
+    z-index: 0;
+    top: 10vh;
+    right: 0px;
+  } /* Right bar formating */
+  
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } /* To format the text */
+  
+  select {
+    color: black;
+    cursor: pointer;
+    width: 25vw;
+    height: 6vh;
+    margin-left:  5vh;
+    margin-right: 5vh;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    font-family: Arial;
+    font-size: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  } /* Dropdown appearance */
+  
+  .button{
+    background-image: linear-gradient(to right, rgb(131, 80, 165), rgb(21, 79, 145));
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    border: 5px;
+    left: 10vw;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  } /* Check option button formatting */
+  /*
+  .specifics{
+    position: relative;
+    top: 0vh;
+    z-index: 2;
+    right: 0vw;
+  } */
+  
+  logo {
+    position: fixed;
+    top: 100px;
+    right: 100px;
+  } /* logo sizing */
+  
+  img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10vh;
+    height: 10vh;
+    z-index: 5;
+  } /* Image placing */
+  
+  .boxes {
+    margin-right: 0px;
+    cursor: pointer;
+    z-index: 5;
+    padding: 5px;
+    background-color: rgba(150, 88, 179, 0.308);
+    border-style: double;
+    border-width: 4px;
+    border-color: black;
+    position: relative;
+    border-radius: 15px;
+    width: 58vw;
+    height: 15vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    left: 5vw;
+    top: 5vh;
+  }
+  
+  .text{
+    position: relative;
+    left: 10vw;
+    font-size: 20px;
+    color: black;
+  }

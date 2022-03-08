@@ -1,0 +1,24 @@
+
+body {
+    font-family: Arial;
+    color: white;
+    font-size: 20pt;
+  } /* This format is for the LoCative Title at the top */
+  
+  .top {
+    height: 10vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    background-image: linear-gradient(to left, rgb(131, 80, 165), rgb(10, 101, 177));
+  } /* Top bar format */
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } /* To format the text */
