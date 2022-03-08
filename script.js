@@ -383,7 +383,7 @@ const restaurant = {
               formattedPlace = formattedPlace + placeArray[i] + ' ';
             }
             // this formats our output and hsows the output in their repsctive places
-            let temp = "window.location.href = \'"+ window.location.href + "/?place=" + place +'\''
+            let temp = "window.location.href = \'"+ window.location.href + "?place=" + place +'\''
             temp = temp.replace("locative.html", "locationData.html")
             specText.innerHTML = specText.innerHTML + '<div class="boxes" id= \"' + place + '\" onclick = \"' + temp + '\" ><h1 class="text">' + formattedPlace + '</h1>' + '</div>';
             currentPlaces.push(place)
@@ -410,7 +410,7 @@ const restaurant = {
             for (var i = 0; i < placeArray.length; i++) {
               formattedPlace = formattedPlace + placeArray[i] + ' ';
             }
-            let temp = "window.location.href = \'"+ window.location.href + "/?place=" + place +'\''
+            let temp = "window.location.href = \'"+ window.location.href + "?place=" + place +'\''
             temp = temp.replace("locative.html", "locationData.html")
             specText.innerHTML = specText.innerHTML + '<div class="boxes" id= \"' + place + '\" onclick = \"' + temp + '\" ><h1 class="text">' + formattedPlace + '</h1>' + '</div>';
             currentPlaces.push(place)
