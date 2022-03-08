@@ -1,11 +1,9 @@
-const places = {
+const loc = {
   Primo: {
     phone: "847...",
     address: "1234 ln",
-    img: "./images/sarpino.jpeg"
-  },
-  place2: {
-    data: "thing"
+    img: "./images/sarpino.jpeg",
+
   }
 };
 
@@ -15,4 +13,4 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
   });
   
   let value = params.place; 
-  document.getElementById("body").innerHTML = value;
+  document.getElementById("body").innerHTML = "<img src= \'" + loc.Primo.img + "\'>";
