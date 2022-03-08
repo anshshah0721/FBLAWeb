@@ -3,7 +3,7 @@ const loc = {
     phone: "847...",
     address: "1234 ln",
     img: "./images/sarpino.jpeg",
-
+    about: ""
   }
 };
 
