@@ -357,8 +357,8 @@ const restaurant = {
     }
   });
 
-
   
+  //chooses what to put on screen
   function getOption(dictionary) {
     currentPlaces = []
     specText.innerHTML = null;
