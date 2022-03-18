@@ -1,11 +1,18 @@
 const loc = {
   Primo: {
-    phone: "847...",
-    address: "1234 ln",
+    phone: "847-336-3446",
+    address: "720 Milwaukee Ave",
     img: "./images/sarpino.jpeg",
+    website: "https://primogurnee.com/",
+    timings: "11 am - 9 pm",
     about: ""
+  },
+  Sarpino: {}
+    phone: "847-223-5000"
   }
 };
+
+
 
 
 const params = new Proxy(new URLSearchParams(window.location.search), {
