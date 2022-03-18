@@ -7,8 +7,9 @@ const loc = {
     timings: "11 am - 9 pm",
     about: ""
   },
-  Sarpino: {}
-    phone: "847-223-5000"
+  Sarpino: {
+    phone: "847-223-5000",
+
   }
 };
 
